@@ -16,9 +16,9 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className='bg-slate-50 relative flex flex-col md:flex-row items-center py-6 md:py-4 shadow-2xl'>
+    <nav className='bg-slate-50 relative flex flex-col md:flex-row lg:items-center py-6 md:py-4 shadow-2xl'>
       {/* Logo positioned at the top left */}
-      <div className='absolute top-0 left-2 p-2 z-10'>
+      <div className='absolute top-0 lg:left-2 p-1 lg:p-2 z-10'>
         <a href='/'>
           <img src="/popelogo.png" alt="Logo" className='h-40 w-40 md:h-44 md:w-44' />
         </a>
@@ -26,13 +26,13 @@ export const Navbar = () => {
       
       {/* Menu Button for mobile view */}
       <div className='md:hidden absolute top-10 right-2 p-4 z-10'>
-        <button onClick={toggleMenu} className='text-3xl text-black'>
+        <button onClick={toggleMenu} className='text-3xl text-white mt-3'>
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
 
       {/* Links section for desktop and mobile pop-up menu */}
-      <div className={`flex-col md:flex-row gap-2 md:gap-6 text-cyan-950 mt-20 md:mt-0 ml-0 md:ml-56 pt-4 md:pt-6 font-semibold
+      <div className={`flex-row md:flex-row gap-2 md:gap-6 text-cyan-950 mt-20 md:mt-0 ml-0 md:ml-56 pt-4 md:pt-6 font-semibold
         ${isMenuOpen ? 'flex' : 'hidden'} md:flex absolute md:relative top-0 left-0 md:top-2.5  md:left-auto bg-slate-50 w-full md:w-auto h-full md:h-22`}>
          <div className='p-4 border-b md:border-none'>
          <NavigationMenuDemo />
