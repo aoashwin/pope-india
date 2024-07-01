@@ -21,8 +21,8 @@ export const Hero = () => {
         </div>
         <div className="container-xxl pt-8 bg-gradient-to-r from-cyan-950 via-cyan-700 to-cyan-950 ">
           <h1 className='heading text-white py-10'>
-            " Our Honourable {' '}
-            <span className="text-cyan-300">chief "</span>
+             Our Honourable {' '}
+            <span className="text-cyan-300">chief </span>
           </h1>
          <div className='py-16 px-8 md:py-16 md:px-20 lg:px-40'>
   <WobbleCard
@@ -36,7 +36,7 @@ export const Hero = () => {
         M.A., B.L.
       </span>
       <p className="mt-4 text-left text-sm md:text-base lg:text-lg text-neutral-200">
-        ~ I was 16 and I didn't know anything about law. Not just as a Dalit, but as a human being I wanted to do something.
+         I was 16 and I didnt know anything about law. Not just as a Dalit, but as a human being I wanted to do something.
       </p>
     </div>
     <Image
@@ -50,7 +50,7 @@ export const Hero = () => {
 </div>
 
         </div>
-        <h1 className='heading text-slate-900 py-4 mt-16 mb-0'>
+        <h1 className="heading text-slate-900 py-4 mt-16 mb-0">
             Kind words from {' '}
             <span className="text-slate-500">Our members</span>
           </h1>

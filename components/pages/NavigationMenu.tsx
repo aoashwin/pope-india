@@ -85,17 +85,17 @@ export function NavigationMenuDemo() {
               <ListItem href="/Pages/About/Environment/" title="Environment">
                 The places where pope organisation do their job.
               </ListItem>
-              <ListItem href="/docs/installation" title="Vision, Mission & Moto">
-                How to install dependencies and structure your app.
+              <ListItem href="/Pages/About/visionmissionmoto/" title="Vision, Mission & Moto">
+                Our work and process to improve this society.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Objectives & Main Activities">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="/Pages/About/Objectives/" title="Objectives & Main Activities">
+               A Devolopment process and Social events
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="The Dalit">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="/Pages/About/dalit/" title="The Dalit">
+                Marginalized People in Hindu caste society.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="The Tribes">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="/Pages/About/tribes/" title="The Tribes">
+                A category of Human Social Group.
               </ListItem>
             </ul>
           </NavigationMenuContent>

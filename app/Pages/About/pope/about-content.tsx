@@ -7,10 +7,10 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 export function TracingBeamDemo() {
   return (
     <TracingBeam className="px-6 w-auto">
-      <div className="max-w-4xl mx-auto antialiased pt-8 relative">
+      <div className="max-w-4xl mx-auto antialiased pt-8  relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-16">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+            <h2 className="bg-black text-white rounded-full text-xl w-fit px-3 py-1 mb-4">
               {item.badge}
             </h2>
 
@@ -18,7 +18,7 @@ export function TracingBeamDemo() {
               {item.title}
             </p>
 
-            <div className="text-sm prose prose-sm dark:prose-invert text-black">
+            <div className="text-l prose prose-sm dark:prose-invert text-black">
               {item?.image && (
                 <Image
                   src={item.image}
@@ -39,37 +39,18 @@ export function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "POPE - People Organisation for Planning and Education",
     description: (
       <>
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
-          adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-          Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-          incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-          fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-          nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-          occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-          officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-          commodo et labore dolore commodo pariatur.
+        Pope is a registered non-profit making secular voluntary organisation, founded in 1987 at Tiruvannamalai District for the development of the Dalits in India. Mr. R.L. Rosario is the Founder President/ Director of POPE. POPE was established to promote the welfare of the Dalits. But we found out that the caste Hindu suppressed the Dalits without allowing them to come up in life. They have been treated as sub-human. But the Indian constitution says that all Indians irrespective of their caste, religion, and language are equal. But the equality status has never been achieved by the Dalits. In order to obtain equal rights to Dalits, on par with other people, the Founder President Mr. R.L. Rosario went for his legal training. In the year 1993, he became an advocate to protect Dalit rights. Since then, POPE has been standing to protect the rights of Dalits.
         </p>
-        <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-        </p>
-        <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
-        </p>
+       
       </>
     ),
-    badge: "React",
+    badge: "Who we are",
     image:
-      "/herocover1.jpg",
+      "/pope1.jpg",
   },
   {
     title: "Lorem Ipsum Dolor Sit Amet",
