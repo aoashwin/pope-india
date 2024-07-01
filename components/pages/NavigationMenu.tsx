@@ -19,36 +19,36 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Education",
     href: "/docs/primitives/alert-dialog",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "Education helps a person to get knowledge and improve confidence in life.",
   },
   {
     title: "Help for Women",
     href: "/docs/primitives/hover-card",
     description:
-      "For sighted users to preview content available behind a link.",
+      "Pope helps to improve Women career life and their rights in society ",
   },
   {
     title: "Help for Youth",
     href: "/docs/primitives/progress",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "The youth of today are the leaders of tomorrow.",
   },
   {
     title: "Help for Elderly People",
     href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    description: "To care for those , who once cared for us.",
   },
   {
     title: "Health",
     href: "/docs/primitives/tabs",
     description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "Pope helps in people health and hospitaity.",
   },
   {
     title: "Others",
     href: "/docs/primitives/tooltip",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "A more works and empowerment process is going in pope.",
   },
 ]
 
@@ -95,7 +95,7 @@ export function NavigationMenuDemo() {
                 Marginalized People in Hindu caste society.
               </ListItem>
               <ListItem href="/Pages/About/tribes/" title="The Tribes">
-                A category of Human Social Group.
+                A category of Human Social Group Who need Improvement in their life.
               </ListItem>
             </ul>
           </NavigationMenuContent>

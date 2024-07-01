@@ -24,18 +24,18 @@ export const Hero = () => {
              Our Honourable {' '}
             <span className="text-cyan-300">chief </span>
           </h1>
-         <div className='py-16 px-8 md:py-16 md:px-20 lg:px-40'>
-  <WobbleCard
+        <div className='py-16 px-8 md:py-16 md:px-20 lg:px-40'>
+          <WobbleCard
     containerClassName="h-full bg-cyan-800 min-h-[500px] lg:min-h-[300px] relative overflow-hidden"
   >
-    <div className="max-w-xs md:max-w-md lg:max-w-lg p-4 md:p-8 lg:p-12">
-      <h2 className="text-left text-base md:text-xl lg:text-3xl font-semibold tracking-tight text-white">
+    <div className="max-w-xs md:max-w-md mb-40 lg:mb-0 lg:max-w-lg p-4 md:p-8 lg:p-12">
+      <h2 className="max-w-xs md:max-w-md mb-0 lg:mb-0 lg:max-w-lg text-left text-base md:text-xl lg:text-3xl font-semibold tracking-tight text-white">
         R.L. Rosario <br/>Director of Pope
       </h2>
       <span className="block text-left text-base md:text-xl lg:text-2xl font-light tracking-tight text-white mt-2">
         M.A., B.L.
       </span>
-      <p className="mt-4 text-left text-sm md:text-base lg:text-lg text-neutral-200">
+      <p className="lg:mt-4 mt-4 text-left text-sm md:text-base lg:text-lg text-neutral-200">
          I was 16 and I didnt know anything about law. Not just as a Dalit, but as a human being I wanted to do something.
       </p>
     </div>
@@ -44,7 +44,7 @@ export const Hero = () => {
       width={400}
       height={500}
       alt="linear demo image"
-      className="absolute right-0 bottom-0 object-contain rounded-2xl max-w-[40%] md:max-w-[30%] lg:max-w-[50%] max-h-full"
+      className="absolute right-0 bottom-2 lg:bottom-0 object-contain rounded-2xl max-w-[50%] md:max-w-[30%] lg:max-w-[50%] max-h-full"
     />
   </WobbleCard>
 </div>
